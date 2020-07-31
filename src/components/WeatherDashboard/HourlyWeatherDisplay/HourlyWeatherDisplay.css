@@ -1,0 +1,9 @@
+.hourly-weather {
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+}
+.hourly-title {
+  font-weight: bold;
+  margin: 8px;
+}
