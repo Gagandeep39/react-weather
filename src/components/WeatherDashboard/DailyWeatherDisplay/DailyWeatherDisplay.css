@@ -1,0 +1,9 @@
+.daily-weather {
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+}
+.daily-title {
+  font-weight: bold;
+  margin: 6px;
+}

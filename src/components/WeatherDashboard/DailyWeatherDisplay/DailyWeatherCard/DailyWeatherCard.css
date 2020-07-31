@@ -1,0 +1,26 @@
+.card {
+  margin: 4px;
+  width: 50%;
+  overflow-y: auto;
+  box-sizing: border-box;
+  flex-direction: column;
+  box-shadow: 2px 2px 4px #b4b4b4;
+  border-radius: 4px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  padding-bottom: 4px;
+}
+
+.card-header {
+  font-weight: bold;
+  padding: 4px;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 4px #7a82ca;
+}
