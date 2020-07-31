@@ -7,7 +7,7 @@ import SunnyCardImage from '../../../../assets/sunny.png';
 const HourlyWeatherCard = (props) => {
   return (
     <div class='card'>
-      <p class='card-header'>11:00</p>
+      <section class='card-header'>11:00</section>
       <img src={CloudyCardImage} alt='IMG NOT FOUND' />
       <section class='card-body'>
         <div class='card-title'>12°</div>
