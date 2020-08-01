@@ -7,9 +7,11 @@ export default function DailyWeatherDisplay() {
     <div>
       <section className='daily-title'>Daily Forecast</section>
       <div className='daily-weather'>
+        <section className='arrow-left'/>
         <DailyWeatherCard />
         <DailyWeatherCard />
         <DailyWeatherCard />
+        <section className='arrow-right'/>
       </div>
     </div>
   );

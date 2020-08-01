@@ -7,3 +7,29 @@
   font-weight: bold;
   margin: 6px;
 }
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent;
+  border-left: 16px solid gray;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 1px;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent;
+  border-right: 16px solid grey;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 1px;
+}
+.arrow-left:hover,
+.arrow-right:hover {
+  box-shadow: 2px 1px 4px #b4b4b4;
+}
