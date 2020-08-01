@@ -83,16 +83,16 @@ class CurrentWeatherDisplay extends Component {
       weatherUI = (
         <div>
           <div className={classes.card}>
-            <section class='card-header'>{this.state.city}</section>
+            <section className='card-header'>{this.state.city}</section>
             <section className='current-title'>{currentWeather.temp}°</section>
 
-            <section class='box'>
+            <section className='box'>
               <img src={weatherIcon} alt='IMG NOT FOUND' />
-              <div class='card-text'>{description}</div>
+              <div className='card-text'>{description}</div>
             </section>
 
-            <section class='card-body'>
-              <section class='card-text'>
+            <section className='card-body'>
+              <section className='card-text'>
                 Updated as of {this.state.lastUpdated}
               </section>
             </section>

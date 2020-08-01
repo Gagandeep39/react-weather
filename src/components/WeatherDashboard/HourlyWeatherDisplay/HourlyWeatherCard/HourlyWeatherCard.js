@@ -15,12 +15,12 @@ const HourlyWeatherCard = (props) => {
   };
 
   return (
-    <div class='card'>
-      <section class='card-header'>{props.date}</section>
+    <div className='card'>
+      <section className='card-header'>{props.date}</section>
       <img src={weatherIcon} alt='IMG NOT FOUND' />
-      <section class='card-body'>
-        <div class='card-title'>{props.temp}°</div>
-        <div class='card-text'>{capitalize(props.desc)}</div>
+      <section className='card-body'>
+        <div className='card-title'>{props.temp}°</div>
+        <div className='card-text'>{capitalize(props.desc)}</div>
       </section>
     </div>
   );
