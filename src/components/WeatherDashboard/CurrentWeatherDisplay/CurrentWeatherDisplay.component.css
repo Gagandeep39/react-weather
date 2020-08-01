@@ -1,0 +1,40 @@
+.card {
+  margin: 2px;
+  width: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+  /* flex-direction: column; */
+  box-shadow: 2px 2px 4px #b4b4b4;
+  border-radius: 4px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  text-align-last: center;
+  align-content: flex-end;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: center;
+}
+
+.current-title {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.card-text {
+  padding-bottom: 2px;
+}
+
+.card-header {
+  font-weight: bold;
+  padding: 4px;
+}
+.refresh-btn {
+  height: 22px;
+}
+
+.refresh-btn:hover {
+  
+  box-shadow: 2px 1px 4px #b4b4b4;
+}
