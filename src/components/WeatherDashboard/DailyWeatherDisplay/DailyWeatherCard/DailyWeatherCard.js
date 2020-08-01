@@ -5,13 +5,22 @@ import RainyCardImage from '../../../../assets/rainy.png';
 import SunnyCardImage from '../../../../assets/sunny.png';
 
 const DailyWeatherCard = (props) => {
+  let weatherIcon = RainyCardImage;
+  if (props.id === 800) weatherIcon = SunnyCardImage;
+  else if (props.id <= 800) weatherIcon = RainyCardImage;
+  else weatherIcon = CloudyCardImage;
+
+  const capitalize = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  };
+
   return (
     <div class='card'>
-      <section class='card-header'>26 July</section>
-      <img src={SunnyCardImage} alt='IMG NOT FOUND' />
+      <section class='card-header'>{props.date}</section>
+      <img src={weatherIcon} alt='IMG NOT FOUND' />
       <section class='card-body'>
-        <div class='card-title'>30°</div>
-        <div class='card-text'>Moderate Rain</div>
+        <div class='card-title'>{props.temp}°</div>
+        <div class='card-text'>{capitalize(props.desc)}</div>
       </section>
     </div>
   );
