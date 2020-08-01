@@ -61,6 +61,7 @@ const DailyWeatherDisplay = (props) => {
         {activeDays.value.map((currentDay) => {
           return (
             <DailyWeatherCard
+              key={currentDay.dt}
               id={currentDay.weather[0].id}
               temp={currentDay.temp.day}
               desc={currentDay.weather[0].description}
