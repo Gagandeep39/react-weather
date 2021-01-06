@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/react-weather/static/css/main.da037e4c.chunk.css",
-    "main.js": "/react-weather/static/js/main.e5e7e2af.chunk.js",
-    "main.js.map": "/react-weather/static/js/main.e5e7e2af.chunk.js.map",
+    "main.js": "/react-weather/static/js/main.77885e40.chunk.js",
+    "main.js.map": "/react-weather/static/js/main.77885e40.chunk.js.map",
     "runtime-main.js": "/react-weather/static/js/runtime-main.10c92b92.js",
     "runtime-main.js.map": "/react-weather/static/js/runtime-main.10c92b92.js.map",
-    "static/js/2.c211e39a.chunk.js": "/react-weather/static/js/2.c211e39a.chunk.js",
-    "static/js/2.c211e39a.chunk.js.map": "/react-weather/static/js/2.c211e39a.chunk.js.map",
+    "static/js/2.66fde20a.chunk.js": "/react-weather/static/js/2.66fde20a.chunk.js",
+    "static/js/2.66fde20a.chunk.js.map": "/react-weather/static/js/2.66fde20a.chunk.js.map",
     "index.html": "/react-weather/index.html",
-    "precache-manifest.ed40392155179cfde091275b5c81e732.js": "/react-weather/precache-manifest.ed40392155179cfde091275b5c81e732.js",
+    "precache-manifest.e296d15075f310100a7e06b26179afe6.js": "/react-weather/precache-manifest.e296d15075f310100a7e06b26179afe6.js",
     "service-worker.js": "/react-weather/service-worker.js",
     "static/css/main.da037e4c.chunk.css.map": "/react-weather/static/css/main.da037e4c.chunk.css.map",
-    "static/js/2.c211e39a.chunk.js.LICENSE.txt": "/react-weather/static/js/2.c211e39a.chunk.js.LICENSE.txt",
+    "static/js/2.66fde20a.chunk.js.LICENSE.txt": "/react-weather/static/js/2.66fde20a.chunk.js.LICENSE.txt",
     "static/media/refresh.a6cb592d.svg": "/react-weather/static/media/refresh.a6cb592d.svg",
     "static/media/weather.41b1a628.svg": "/react-weather/static/media/weather.41b1a628.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.10c92b92.js",
-    "static/js/2.c211e39a.chunk.js",
+    "static/js/2.66fde20a.chunk.js",
     "static/css/main.da037e4c.chunk.css",
-    "static/js/main.e5e7e2af.chunk.js"
+    "static/js/main.77885e40.chunk.js"
   ]
 }
